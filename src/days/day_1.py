@@ -1,6 +1,6 @@
 
 def day_1():
-    file_name = 'days/day_1_input.txt'
+    file_name = 'inputs/day_1_input.txt'
     file_lines = None
     try:
         with open(file_name, 'r') as f:

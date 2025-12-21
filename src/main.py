@@ -4,12 +4,15 @@ import days
 def main(args):
     if len(args) == 1:
         day = args[0]
-        print(f"Day specified: {day}")
         match day:
             case "1":
                 days.day_1()
             case "2":
                 days.day_2()
+            case "3":
+                days.day_3()
+            case "4":
+                days.day_4()
             case _:
                 print("That day is not available.")
 

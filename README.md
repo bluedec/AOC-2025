@@ -79,10 +79,3 @@ pytest tests/test_day2.py
 ```
 
 ---
-
-## Notes
-
-- Tests use absolute imports from the `days` package.
-- The project root is added to the Python path via `tests/conftest.py` to ensure imports resolve correctly.
-- Each day’
-

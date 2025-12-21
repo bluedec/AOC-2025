@@ -1,6 +1,7 @@
 def day_2():
+    print("Day 2: Gift Shop")
     sum_of_wrong_ids = 0
-    with open("src/days/day_2_input.txt") as f:
+    with open("inputs/day_2_input.txt") as f:
         intervals = [i.strip() for i in f.read().split(',')]
 
     for ival in intervals:
